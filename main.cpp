@@ -42,6 +42,17 @@ void viewer()
 }
 
 void program() {
+    std::cout << "Initialize Successfully" << std::endl;
+    std::cout << "Type your action: ";
+    std::cin >> input;
+    switch(input) {
+    case 1:
+        viewer();
+        break;
+    case 2:
+        text();
+        break;
+    }
 
 }
 
